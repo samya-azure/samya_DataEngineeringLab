@@ -27,12 +27,12 @@ print("Full DataFrame:")
 df.show()
 
 # Step 4: Filter (people with > 4 years of experience)
-print("People with more than 4 years of experience:")
-df.filter(df.Experience > 4).show()
+print("People with more than 5 years of experience:")
+df.filter(df.Experience > 5).show()
 
 # Step 5: Run SQL queries
 df.createOrReplaceTempView("employees")
-sql_df = spark.sql("SELECT Name, Role FROM employees WHERE Experience >= 5")
+sql_df = spark.sql("SELECT Name, Role FROM employees WHERE Experience > 5")
 
 print("SQL Query Result:")
 sql_df.show()
