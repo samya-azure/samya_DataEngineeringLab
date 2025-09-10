@@ -1,0 +1,11 @@
+EmpCode,EmployeeName,Designation,YearOfExperience,DateOfBirth
+EMP1001,John Doe,Developer,5,1990-03-15
+EMP1002,Jane Smith,Tester,3,1992-07-22
+EMP1003,Michael Johnson,Manager,12,1985-11-10
+EMP1004,Emily Davis,Data Engineer,7,1989-01-05
+EMP1005,David Wilson,Developer,4,1993-09-18
+EMP1006,Sophia Martinez,Tester,6,1991-12-30
+EMP1007,Chris Brown,Technical Architect,15,1980-06-25
+EMP1008,Olivia Taylor,Developer,2,1995-04-14
+EMP1009,Daniel Anderson,Data Scientist,8,1987-08-09
+EMP1010,Sophia White,HR,10,1986-02-20
